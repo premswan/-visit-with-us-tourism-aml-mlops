@@ -23,7 +23,11 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           DATASET_REPO_ID: ${{ secrets.DATASET_REPO_ID }}
-        run: python scripts/register_dataset.py
+      - name: Debug - list repo files
+        run: |
+           ls -la
+           find . -maxdepth 3 -type d | sort
+           python scripts/register_dataset.py
 
   data-prep:
     needs: register-dataset
