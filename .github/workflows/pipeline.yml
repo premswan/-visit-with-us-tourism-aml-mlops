@@ -31,7 +31,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           DATASET_REPO_ID: ${{ secrets.DATASET_REPO_ID }}
-        run: python scripts/register_dataset.py
+        run: python tourism_project/scripts/register_dataset.py
 
   data-prep:
     needs: register-dataset
@@ -51,7 +51,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           DATASET_REPO_ID: ${{ secrets.DATASET_REPO_ID }}
-        run: python scripts/data_prep.py
+        run: tourism_project/scripts/data_prep.py
 
   model-training:
     needs: data-prep
@@ -72,7 +72,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           DATASET_REPO_ID: ${{ secrets.DATASET_REPO_ID }}
           MODEL_REPO_ID: ${{ secrets.MODEL_REPO_ID }}
-        run: python scripts/train_model.py
+        run: python tourism_project/scripts/train_model.py
 
   deploy-hosting:
     needs: model-training
@@ -92,4 +92,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           SPACE_REPO_ID: ${{ secrets.SPACE_REPO_ID }}
-        run: python scripts/deploy_space.py
+        run: python tourism_project/scripts/deploy_space.py
