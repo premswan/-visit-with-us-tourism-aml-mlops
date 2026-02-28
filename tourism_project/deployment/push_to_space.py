@@ -23,4 +23,4 @@ api.upload_folder(
     token=HF_TOKEN
 )
 
-print("✅ Deployed files pushed to HF Space:", SPACE_REPO_ID)
+print("Deployed files pushed to HF Space:", SPACE_REPO_ID)

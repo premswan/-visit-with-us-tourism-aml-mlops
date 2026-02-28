@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_project/mlruns/383369830327340110/017df9d4a83b4b1fae93fc83f3cc4b78/artifacts
+end_time: 1772301004157
+entry_point_name: ''
+experiment_id: '383369830327340110'
+lifecycle_stage: active
+run_id: 017df9d4a83b4b1fae93fc83f3cc4b78
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772300988530
+status: 3
+tags: []
+user_id: root
