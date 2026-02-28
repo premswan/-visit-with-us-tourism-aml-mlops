@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_project/mlruns/937495367356402103/5908413f27d6443585f620b2b0e2623c/artifacts
+end_time: 1772264456746
+entry_point_name: ''
+experiment_id: '937495367356402103'
+lifecycle_stage: active
+run_id: 5908413f27d6443585f620b2b0e2623c
+run_name: Bagging
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772264351374
+status: 3
+tags: []
+user_id: root

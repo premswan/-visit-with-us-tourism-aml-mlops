@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_project/mlruns/937495367356402103/a4e3ddb6210d43beb65002eab5e1e20c/artifacts
+end_time: 1772266328505
+entry_point_name: ''
+experiment_id: '937495367356402103'
+lifecycle_stage: active
+run_id: a4e3ddb6210d43beb65002eab5e1e20c
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772266302349
+status: 3
+tags: []
+user_id: root
