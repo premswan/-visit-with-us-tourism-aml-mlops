@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_project/mlruns/383369830327340110/539aa4965fad48dfaa5ff328d6376292/artifacts
+end_time: 1772307025254
+entry_point_name: ''
+experiment_id: '383369830327340110'
+lifecycle_stage: active
+run_id: 539aa4965fad48dfaa5ff328d6376292
+run_name: GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772306891536
+status: 3
+tags: []
+user_id: root
