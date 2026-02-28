@@ -51,7 +51,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           DATASET_REPO_ID: ${{ secrets.DATASET_REPO_ID }}
-        run: tourism_project/scripts/data_prep.py
+        run: python tourism_project/scripts/data_prep.py
 
   model-training:
     needs: data-prep
