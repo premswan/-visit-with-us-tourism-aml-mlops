@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_project/mlruns/937495367356402103/14e228d7c64c4bd3ad0ee3d132298cce/artifacts
+end_time: 1772279406119
+entry_point_name: ''
+experiment_id: '937495367356402103'
+lifecycle_stage: active
+run_id: 14e228d7c64c4bd3ad0ee3d132298cce
+run_name: AdaBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772279327434
+status: 3
+tags: []
+user_id: root

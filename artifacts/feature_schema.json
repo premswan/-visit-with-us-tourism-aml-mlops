@@ -1,0 +1,45 @@
+{
+  "feature_columns": [
+    "Age",
+    "TypeofContact",
+    "CityTier",
+    "DurationOfPitch",
+    "Occupation",
+    "Gender",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "ProductPitched",
+    "PreferredPropertyStar",
+    "MaritalStatus",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "Designation",
+    "MonthlyIncome"
+  ],
+  "categorical_columns": [
+    "TypeofContact",
+    "Occupation",
+    "Gender",
+    "ProductPitched",
+    "MaritalStatus",
+    "Designation"
+  ],
+  "numerical_columns": [
+    "Age",
+    "CityTier",
+    "DurationOfPitch",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome"
+  ],
+  "target": "ProdTaken"
+}

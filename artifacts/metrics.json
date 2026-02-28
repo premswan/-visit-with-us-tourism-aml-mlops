@@ -1,0 +1,7 @@
+{
+  "roc_auc": 0.9682248108323377,
+  "best_params": {
+    "model__n_estimators": 600,
+    "model__max_depth": null
+  }
+}
